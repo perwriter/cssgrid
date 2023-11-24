@@ -3,13 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-d3zEaxJkOwM2zD7F0TGHiJ3mZ5C5qLLOw9UB/dq2N4SXs1N1U6cz/gZYx3Y1J2OkT"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="styles.css" />
     <title>CSS GRID</title>
   </head>
   <body>
-    <div class="main">
-      <h1>CSS GRID</h1>
+    <!-- <div class="main"> -->
+    <!-- <h1>CSS GRID</h1> -->
+    <div class="grid-card">
+      <div class="card card-1">
+        <h2>86 Places</h2>
+        <a href="#" class="item-description">
+          <p>See Your most visted places and the places you have been</p>
+          <div class="arrow">
+            <i class="fa-solid fa-chevron-right">></i>
+          </div>
+        </a>
+      </div>
+      <div class="card card-2">
+        <img src="./pic.png" alt="Picture" />
+        <h2>Romania and Norway</h2>
+        <p class="date">March-18 -31. 2023</p>
+        <button>View Trips</button>
+      </div>
+      <div class="card card-3">
+        <h2>Home and Work</h2>
+        <div class="list-item">
+          <i class="fa-solid fa-house"></i>
+          <a href="#"
+            >Add Home Address
+            <i class="fa-solid fa-chevron-right arrow">></i></a
+          >
+          <i class="fa-solid fa-computer"></i>
+          <a href="#"
+            >Add Work Address
+            <i class="fa-solid fa-chevron-right arrow">></i></a
+          >
+        </div>
+      </div>
     </div>
+    <!-- </div> -->
     <script src="script.js"></script>
   </body>
 </html>
